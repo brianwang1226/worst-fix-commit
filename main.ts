@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "fix: fixed the bug by removing the code that had the bug. And the feature. And the tests. Ship it.";
+  "fix: fixed the bug by removing the code that had the bug. And the feature. And tests. Ship.";
 
 // The gate allows 1-100 characters; refuse to write an over-long text.
 if (line.length < 1 || line.length > 100) {
